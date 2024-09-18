@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>Intrecci</title>
-	<atom:link href="/manolozocco/feed/" rel="self" type="application/rss+xml" />
+	<title>post &#8211; Intrecci</title>
+	<atom:link href="/manolozocco/category/post/feed/" rel="self" type="application/rss+xml" />
 	<link>/manolozocco/</link>
 	<description></description>
 	<lastBuildDate>Sun, 08 Sep 2024 15:50:19 +0000</lastBuildDate>
