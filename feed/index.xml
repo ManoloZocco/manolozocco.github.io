@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Intrecci</title>
-	<atom:link href="/manolozocco.github.io/feed/" rel="self" type="application/rss+xml" />
-	<link>/manolozocco.github.io/</link>
+	<atom:link href="//feed/" rel="self" type="application/rss+xml" />
+	<link>//</link>
 	<description></description>
 	<lastBuildDate>Sun, 08 Sep 2024 15:50:19 +0000</lastBuildDate>
 	<language>it-IT</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=6.6.2</generator>
 	<item>
 		<title>È solo un posto.</title>
-		<link>/manolozocco.github.io/e-solo-un-posto/</link>
-					<comments>/manolozocco.github.io/e-solo-un-posto/#respond</comments>
+		<link>//e-solo-un-posto/</link>
+					<comments>//e-solo-un-posto/#respond</comments>
 		
 		<dc:creator><![CDATA[manolozocco]]></dc:creator>
 		<pubDate>Sun, 08 Sep 2024 15:50:19 +0000</pubDate>
 				<category><![CDATA[post]]></category>
-		<guid isPermaLink="false">/manolozocco.github.io/?p=14</guid>
+		<guid isPermaLink="false">//?p=14</guid>
 
 					<description><![CDATA[Siamo un tessuto ricco e variegato di esperienze, lotte e speranze. Come fili in un arazzo, le nostre storie si intrecciano, creando un quadro più ampio e più vero della realtà umana. In questo spazio digitale, mi propongo di immergermi nelle profondità di ciò che mi appassiona: politica, diritti, ambiente. Cercherò di esplorare come i&#8230;]]></description>
 										<content:encoded><![CDATA[
@@ -54,7 +54,7 @@
 <p>Benvenut*.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/manolozocco.github.io/e-solo-un-posto/feed/</wfw:commentRss>
+					<wfw:commentRss>//e-solo-un-posto/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
