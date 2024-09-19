@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Commenti a: È solo un posto.	</title>
-	<atom:link href="//e-solo-un-posto/feed/" rel="self" type="application/rss+xml" />
-	<link>//e-solo-un-posto/</link>
+	<atom:link href="/e-solo-un-posto/feed/" rel="self" type="application/rss+xml" />
+	<link>/e-solo-un-posto/</link>
 	<description></description>
 	<lastBuildDate>Sun, 08 Sep 2024 15:50:19 +0000</lastBuildDate>
 	<sy:updatePeriod>
