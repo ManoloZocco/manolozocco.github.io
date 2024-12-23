@@ -8,53 +8,31 @@
 	>
 
 <channel>
-	<title>Intrecci</title>
+	<title>Maschi Che MASCHIANO</title>
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sun, 08 Sep 2024 15:50:19 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 23 Dec 2024 01:41:26 +0000</lastBuildDate>
 	<language>it-IT</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 	<item>
-		<title>È solo un posto.</title>
-		<link>/e-solo-un-posto/</link>
-					<comments>/e-solo-un-posto/?noamp=mobile#respond</comments>
+		<title>Grrr.</title>
+		<link>/__trashed-3/</link>
+					<comments>/__trashed-3/?noamp=mobile#respond</comments>
 		
 		<dc:creator><![CDATA[manolozocco]]></dc:creator>
-		<pubDate>Sun, 08 Sep 2024 15:50:19 +0000</pubDate>
+		<pubDate>Mon, 23 Dec 2024 00:49:26 +0000</pubDate>
 				<category><![CDATA[post]]></category>
-		<guid isPermaLink="false">/?p=14</guid>
+		<guid isPermaLink="false">/?p=776</guid>
 
-					<description><![CDATA[Siamo un tessuto ricco e variegato di esperienze, lotte e speranze. Come fili in un arazzo, le nostre storie si intrecciano, creando un quadro più ampio e più vero della realtà umana. In questo spazio digitale, mi propongo di immergermi nelle profondità di ciò che mi appassiona: politica, diritti, ambiente. Cercherò di esplorare come i&#8230;]]></description>
-										<content:encoded><![CDATA[
-<p>Siamo un tessuto ricco e variegato di esperienze, lotte e speranze. Come fili in un arazzo, le nostre storie si intrecciano, creando un quadro più ampio e più vero della realtà umana.</p>
-
-
-
-<p>In questo spazio digitale, mi propongo di immergermi nelle profondità di ciò che mi appassiona: politica, diritti, ambiente. Cercherò di esplorare come i sistemi di potere si intrecciano, si sostengono a vicenda, ma anche come possono essere smantellati insieme.</p>
-
-
-
-<p>&#8220;Intrecci&#8221; è anticapitalista, perché le strutture economiche si intrecciano con le dinamiche di potere, influenzando le nostre relazioni, il nostro lavoro e i nostri desideri.</p>
-
-
-
-<p>&#8220;Intrecci&#8221; desidera celebrare la complessità. Riconosce che nessun* di noi è definit* da una singola identità o esperienza; siamo tutt* intrecci viventi di culture, storie, desideri e lotte.</p>
-
-
-
-<p>&#8220;Intrecci&#8221; vuole essere un a esplorare le connessioni nascoste, a scoprire nuovi punti di vista, a tessere legami di solidarietà. È un invito a vedere il mondo non come una serie di categorie separate, ma come una rete di relazioni e possibilità.</p>
-
-
-
-<p>Benvenut*.</p>
-]]></content:encoded>
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
 					
-					<wfw:commentRss>/e-solo-un-posto/feed/</wfw:commentRss>
+					<wfw:commentRss>/__trashed-3/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
