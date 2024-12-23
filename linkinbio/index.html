@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link in Bio - Apple Style (Light & Dark)</title>
+
+    <!-- Font Awesome (per le icone) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <style>
+        /* RESET DI BASE (opzionale, ma consigliato) */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* ========== REGOLA GENERALE (LIGHT MODE) ========== */
+        /* BODY
+       Usa la system-font stack per un feeling "Apple",
+       sfondo grigio chiaro e testo scuro per un look minimal.
+    */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+                Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* CONTAINER
+       Bianco, ombra morbida, angoli arrotondati. 
+       Spaziatura generosa per dare un look “premium”.
+    */
+        .container {
+            background-color: #fff;
+            width: 370px;
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            transition: background-color 0.3s ease;
+        }
+
+        /* PROFILO: foto rotonda, ben centrata,
+       con un leggero bordo grigio.
+    */
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            overflow: hidden;
+            border: 1px solid #eee;
+            transition: border-color 0.3s ease;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* TITLE & PARAGRAFO 
+       Stile sobrio, con un font un po’ più grande per l’h1.
+    */
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #111;
+            transition: color 0.3s ease;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 24px;
+            transition: color 0.3s ease;
+        }
+
+        /* LINK BUTTON 
+       Pulsanti in stile Apple:
+       - Sfondi chiari, testo “primary” (azzurro Apple)
+       - Leggero effetto di profondità su hover/focus
+    */
+        .link-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            /* spazio tra icona e testo */
+            text-decoration: none;
+            color: #007aff;
+            /* Apple “blue” */
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 12px 18px;
+            margin: 8px 0;
+            transition:
+                box-shadow 0.2s ease,
+                transform 0.15s ease,
+                background-color 0.3s ease,
+                border-color 0.3s ease,
+                color 0.3s ease;
+        }
+
+        .link-button i {
+            font-size: 18px;
+            color: #007aff;
+            transition: color 0.3s ease;
+        }
+
+        /* Effetto al passaggio (hover) e focus:
+       - Elevazione e leggera scalatura verso l’alto
+    */
+        .link-button:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .link-button:focus {
+            outline: 2px solid #007aff;
+            outline-offset: 3px;
+            box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.3);
+        }
+
+        /* ========== DARK MODE (attivata con .dark-mode su <body>) ========== */
+        body.dark-mode {
+            background-color: #111;
+            /* Sfondo scuro */
+            color: #ddd;
+            /* Testo più chiaro */
+        }
+
+        body.dark-mode .container {
+            background-color: #1c1c1c;
+            /* Contenitore leggermente più chiaro del background */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        body.dark-mode .profile-pic {
+            border: 1px solid #333;
+        }
+
+        body.dark-mode h1 {
+            color: #f0f0f0;
+        }
+
+        body.dark-mode p {
+            color: #bbb;
+        }
+
+        /* Pulsanti in dark mode */
+        body.dark-mode .link-button {
+            background-color: #2c2c2c;
+            border-color: #444;
+            color: #70a7ff;
+            /* un blu più tenue su sfondo scuro */
+        }
+
+        body.dark-mode .link-button i {
+            color: #70a7ff;
+        }
+
+        body.dark-mode .link-button:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .dark-mode .link-button:focus {
+            outline: 2px solid #70a7ff;
+            box-shadow: 0 0 0 3px rgba(112, 167, 255, 0.3);
+        }
+
+        /* ========== RESPONSIVE ========== */
+        @media (max-width: 420px) {
+            .container {
+                width: 90%;
+                padding: 20px;
+            }
+
+            .profile-pic {
+                width: 90px;
+                height: 90px;
+                margin-bottom: 16px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+
+            .link-button {
+                font-size: 14px;
+                padding: 10px 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Foto del profilo -->
+        <div class="profile-pic">
+            <!-- Inserisci l’immagine del tuo profilo. -->
+            <img src="img/manolozocco.jpg" alt="Profile Picture" />
+        </div>
+
+        <!-- Nome & Bio -->
+        <h1>Manolo Zocco</h1>
+        <p>🗨️ Parlo di diritti, politica e ambiente 🧩</p>
+
+        <!-- Link 1 -->
+        <a href="https://maschichemaschiano.github.io/" class="link-button"
+            aria-label="Visita il sito Maschi che MASCHIANO">
+            <i class="fa fa-male"></i>
+            Maschi che MASCHIANO
+        </a>
+
+        <!-- Link 2 -->
+        <a href="https://www.threads.net/@manolozocco" class="link-button"
+            aria-label="Vai al profilo Threads di ManoloZocco">
+            <i class="fa fa-comments-o"></i>
+            Threads
+        </a>
+
+        <!-- Link 3 -->
+        <a href="https://www.instagram.com/manolozocco/" class="link-button"
+            aria-label="Vai al profilo Instagram di ManoloZocco">
+            <i class="fa fa-instagram"></i>
+            Instagram
+        </a>
+    </div>
+
+    <script>
+        (function () {
+            // Funzione semplice: se è dopo le 18 o prima delle 6, attiva dark-mode
+            var hour = new Date().getHours();
+            if (hour >= 17 || hour < 6) {
+                document.body.classList.add("dark-mode");
+            }
+        })();
+    </script>
+</body>
+
+</html>
